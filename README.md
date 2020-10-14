@@ -1,2 +1,3 @@
-# MegaManWEB
-Megamp Manager Web application
+# MegaManWeb-BE
+
+Megamp Manager Web backend

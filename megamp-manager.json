@@ -1,0 +1,38 @@
+[
+  {
+    "id": "5c1a21d0228fb834b56fa189",
+
+    "name": "MegampManager00",
+
+    "modules": ["5c8a21d02f8fb814b56fa189", "5c8a23412f8fb814b56fa18c", "5c8a1f4e2f8fb814b56fa185"]
+  },
+
+  {
+    "id": "5c8a21d02f8fb814b56fa189",
+    "controllerId": "5c1a21d0228fb834b56fa189",
+
+    "name": "M00",
+    "enabled": true,
+    "channelsAvailable": 16,
+
+    "channels": [
+      "5c9a21d02f8f6814b56fa186",
+      "5c1a23412f8fb814b56fa184",
+      "5c2a1f4e2f1f1814b56fa185",
+      "5c3a21d02f83b814b56fa183",
+      "5c4a23412f8fb814b56fa182",
+      "5c8a1f4e228fb814b56fa182"
+    ]
+  },
+
+  {
+    "id": "5c9a21d02f8f6814b56fa186",
+    "moduleId": "5c8a21d02f8fb814b56fa189",
+    "controllerId": "5c1a21d0228fb834b56fa189",
+
+    "name": "CH00",
+    "description": "Test channel",
+    "number": 0,
+    "threshold": 512
+  }
+]

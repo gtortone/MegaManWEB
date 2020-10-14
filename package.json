@@ -1,0 +1,19 @@
+{
+  "name": "megamanweb",
+  "version": "1.0.0",
+  "description": "Megamp Manager Web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtortone/MegaManWEB.git"
+  },
+  "author": "Gennaro Tortone",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/gtortone/MegaManWEB/issues"
+  },
+  "homepage": "https://github.com/gtortone/MegaManWEB#readme"
+}

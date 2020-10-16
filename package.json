@@ -4,7 +4,8 @@
   "description": "Megamp Manager Web application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/gtortone/MegaManWEB/issues"
   },
-  "homepage": "https://github.com/gtortone/MegaManWEB#readme"
+  "homepage": "https://github.com/gtortone/MegaManWEB#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nanoid": "^3.1.12"
+  }
 }

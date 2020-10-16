@@ -1,51 +1,55 @@
-{
-  "id": "b421e2cf-5a82-4e6d-afdb-2a4a7ff2706c",
-  "type": "module",
-  "name": "Megamp module",
-
-  "comment": "RS485 - EPICS - HTTP (REST API)",
-  "multiplicity threshold": 123,
-  "tac range": 223,
-
-  "channels": [
-    {
-      "id": "2a5d36b7-8e57-4881-98e4-2bded7393b94",
-      "number": 0,
-      "name": "Channel 00",
-
-      "comment1": "USB - MIDAS ODB",
-      "energy threshold": 111,
-      "time threshold": 244,
-
-      "comment2": "RS485 - EPICS - HTTP (REST API)",
-      "polarity": 0,
-      "shaping": 1
-    },
-    {
-      "id": "6959fe5d-9726-41f0-9225-a7e5b1b7267c",
-      "number": 1,
-      "name": "Channel 01",
-
-      "comment1": "USB - MIDAS ODB",
-      "energy threshold": 111,
-      "time threshold": 244,
-
-      "comment2": "RS485 - EPICS - HTTP (REST API)",
-      "polarity": 0,
-      "shaping": 1
-    },
-    {
-      "id": "c9ec9508-d404-4ddb-be2a-fcf977dcfe81",
-      "number": 15,
-      "name": "Channel 15",
-
-      "comment1": "USB - MIDAS ODB",
-      "energy threshold": 111,
-      "time threshold": 244,
-
-      "comment2": "RS485 - EPICS - HTTP (REST API)",
-      "polarity": 0,
-      "shaping": 1
-    }
-  ]
-}
+[
+  {
+    "id": "b421e2cf-5a82-4e6d-afdb-2a4a7ff2706c",
+    "type": "module",
+    "name": "Megamp module",
+    "comment": "RS485 - EPICS - HTTP (REST API)",
+    "multiplicity threshold": 123,
+    "tac range": 223,
+    "channels": [
+      {
+        "id": "2a5d36b7-8e57-4881-98e4-2bded7393b94",
+        "number": 0,
+        "name": "Channel 00",
+        "comment1": "USB - MIDAS ODB",
+        "energy threshold": 111,
+        "time threshold": 244,
+        "comment2": "RS485 - EPICS - HTTP (REST API)",
+        "polarity": 0,
+        "shaping": 1
+      },
+      {
+        "id": "6959fe5d-9726-41f0-9225-a7e5b1b7267c",
+        "number": 1,
+        "name": "Channel 01",
+        "comment1": "USB - MIDAS ODB",
+        "energy threshold": 111,
+        "time threshold": 244,
+        "comment2": "RS485 - EPICS - HTTP (REST API)",
+        "polarity": 0,
+        "shaping": 1
+      },
+      {
+        "id": "c9ec9508-d404-4ddb-be2a-fcf977dcfe81",
+        "number": 15,
+        "name": "Channel 15",
+        "comment1": "USB - MIDAS ODB",
+        "energy threshold": 111,
+        "time threshold": 244,
+        "comment2": "RS485 - EPICS - HTTP (REST API)",
+        "polarity": 0,
+        "shaping": 1
+      }
+    ]
+  },
+  { "id": "l8FkLtvVoD", "name": "Test module" },
+  { "id": "RI1hLIYExM", "name": "Test module" },
+  { "id": "Ol7MpVYwyV", "name": "Test module" },
+  { "id": "bUWMejE0mm", "name": "Test module" },
+  { "id": "EWuQp5egV3", "name": "Test module" },
+  { "id": "D3eoUQBMwA", "name": "New module" },
+  { "id": "nd5tlj8O0b", "name": "New module" },
+  { "id": "UbTJXA7yXl", "name": "New module" },
+  { "id": "ONn9VuW5KO", "name": "New module" },
+  { "id": "1tQ44bUEPS", "name": "New module" }
+]

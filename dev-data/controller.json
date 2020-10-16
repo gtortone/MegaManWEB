@@ -1,24 +1,26 @@
-{
-  "id": "8ed04928-5877-4c07-870b-4dd3a08f5358",
-  "type": "controller",
-  "name": "My Controller",
+[
+  {
+    "id": "8ed04928-5877-4c07-870b-4dd3a08f5358",
+    "type": "controller",
+    "name": "My Controller",
 
-  "comment": "USB - MIDAS ODB",
-  "dac offset": 44,
-  "adc frame delay": 21,
+    "comment": "USB - MIDAS ODB",
+    "dac offset": 44,
+    "adc frame delay": 21,
 
-  "modules": [
-    {
-      "position": 0,
-      "refid": "b421e2cf-5a82-4e6d-afdb-2a4a7ff2706c"
-    },
-    {
-      "position": 2,
-      "refid": "776f7613-f128-448f-8d26-88a081e5d379"
-    },
-    {
-      "position": 3,
-      "refid": "6aaf7ce3-6df9-4895-8c0f-a50f1bdcb3d6"
-    }
-  ]
-}
+    "modules": [
+      {
+        "position": 0,
+        "refid": "b421e2cf-5a82-4e6d-afdb-2a4a7ff2706c"
+      },
+      {
+        "position": 2,
+        "refid": "776f7613-f128-448f-8d26-88a081e5d379"
+      },
+      {
+        "position": 3,
+        "refid": "6aaf7ce3-6df9-4895-8c0f-a50f1bdcb3d6"
+      }
+    ]
+  }
+]

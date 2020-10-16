@@ -1,11 +1,13 @@
-{
-  "id": "8fa14928-5877-111-870b-4dd3a08232223",
-  "type": "setup",
-  "name": "First setup",
+[
+  {
+    "id": "8fa14928-5877-111-870b-4dd3a08232223",
+    "type": "setup",
+    "name": "First setup",
 
-  "controllers": [
-    {
-      "refid": "8ed04928-5877-4c07-870b-4dd3a08f5358"
-    }
-  ]
-}
+    "controllers": [
+      {
+        "refid": "8ed04928-5877-4c07-870b-4dd3a08f5358"
+      }
+    ]
+  }
+]
